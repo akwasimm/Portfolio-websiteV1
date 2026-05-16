@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base ─────────────────────────────── */
+@layer base {
+  html {
+    body {
+  @apply bg-white text-black dark:bg-black dark:text-white;
+    };
+  }
+
+  body {
+    @apply bg-background-dark text-text-main font-sans antialiased overflow-x-hidden;
+  }
+
+  ::selection {
+    @apply bg-primary text-on-primary;
+  }
+
+  * {
+    @apply border-border-dark;
+  }
+}
+
+/* ─── Material Icons ────────────────────── */
+@layer base {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+  }
+}
+
+/* ─── Reusable Component Classes ────────── */
+@layer components {
+
+  /* Navbar link hover effect */
+  .nav-link {
+    @apply relative text-text-muted text-body-sm font-medium 
+           uppercase tracking-widest transition-colors 
+           duration-200 hover:text-primary;
+  }
+
+  .nav-link::before {
+    content: '> ';
+    @apply absolute text-primary opacity-0 -left-3 
+           transition-opacity duration-200;
+  }
+
+  .nav-link:hover::before {
+    @apply opacity-100;
+  }
+
+  .nav-link-active {
+    @apply text-primary;
+  }
+
+  .nav-link-active::before {
+    @apply opacity-100;
+  }
+
+  /* Primary Button */
+  .btn-primary {
+    @apply flex items-center justify-center gap-2
+           h-11 px-7
+           bg-primary text-on-primary
+           text-label font-bold uppercase tracking-widest
+           transition-all duration-200
+           hover:shadow-neon-md hover:brightness-110
+           active:scale-95;
+  }
+
+  /* Ghost Button */
+  .btn-ghost {
+    @apply flex items-center justify-center gap-2
+           h-11 px-7
+           bg-transparent border border-primary
+           text-primary
+           text-label font-bold uppercase tracking-widest
+           transition-all duration-200
+           hover:bg-primary/10 hover:shadow-neon-sm
+           active:scale-95;
+  }
+
+  /* Resume Button (Navbar) */
+  .btn-resume {
+    @apply flex items-center justify-center
+           h-9 px-5
+           bg-primary text-on-primary
+           text-label font-bold uppercase tracking-widest
+           transition-all duration-200
+           hover:shadow-neon-md hover:brightness-110
+           active:scale-95;
+  }
+
+  /* Pill Tag (Skills) */
+  .pill {
+    @apply inline-flex items-center gap-1.5
+           px-3 py-1
+           bg-primary/5 border border-primary/20
+           text-primary font-mono text-label
+           rounded-full
+           transition-all duration-200
+           hover:bg-primary/15 hover:border-primary;
+  }
+
+  /* Pill Tag Exploring variant */
+  .pill-explore {
+    @apply pill border-dashed opacity-60
+           hover:opacity-100;
+  }
+
+  /* Bento Card (Skills) */
+  .bento-card {
+    @apply bg-surface-dark border border-border-dark
+           rounded-lg p-8
+           transition-all duration-300
+           hover:border-primary/40
+           hover:-translate-y-1;
+  }
+
+  /* Project Card */
+  .project-card {
+    @apply bg-surface-dark border border-border-dark
+           rounded-lg overflow-hidden
+           transition-all duration-300
+           hover:border-primary/30;
+  }
+
+  /* Contact Info Card */
+  .contact-card {
+    @apply flex items-center gap-4
+           bg-surface-dark border border-border-dark
+           rounded-md p-5
+           transition-all duration-200
+           hover:-translate-y-0.5
+           hover:shadow-neon-sm
+           hover:border-primary/30
+           cursor-pointer;
+  }
+
+  /* Form Input */
+  .form-input {
+    @apply w-full bg-background-dark
+           border border-border-mid
+           rounded-md px-4 py-3
+           text-text-main text-body
+           placeholder:text-text-muted
+           focus:outline-none
+           focus:border-primary
+           focus:shadow-neon-sm
+           transition-all duration-200;
+  }
+
+  /* Section divider line */
+  .section-divider {
+    @apply h-[3px] w-32 mb-6;
+    background: linear-gradient(90deg, #0ddbf2 0%, transparent 100%);
+    box-shadow: 0 0 12px rgba(13, 219, 242, 0.5);
+  }
+
+  /* Glass Card */
+  .glass-card {
+    @apply bg-surface-dark/70 backdrop-blur-md
+           border border-border-mid/30
+           rounded-lg;
+  }
+}
+
+/* ─── Utility Animations ────────────────── */
+@layer utilities {
+
+  /* Neon glow text */
+  .gradient-text {
+    background: linear-gradient(90deg, #0ddbf2, #08daf1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Active dot (contact badge) */
+  .active-dot::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #10b981;
+    border-radius: 50%;
+    margin-right: 8px;
+    box-shadow: 0 0 8px #10b981;
+  }
+
+  /* Cyber grid background */
+  .cyber-grid {
+    background-image:
+      linear-gradient(to right,  rgba(13, 219, 242, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(13, 219, 242, 0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* Scrollbar hide */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  /* Pulse animation for timeline dot */
+  .pulse-dot {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%       { opacity: 0.5; transform: scale(1.2); }
+  }
+
+  /* Sliding bar animation (project detail) */
+  @keyframes slide {
+    0%   { transform: translateX(-100%); }
+    100% { transform: translateX(400%); }
+  }
+
+  .animate-slide {
+    animation: slide 3s linear infinite;
+  }
+}

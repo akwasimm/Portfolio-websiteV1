@@ -1,0 +1,45 @@
+
+[
+  {
+    "id": 1,
+    "period": "Now",
+    "title": "Building Portfolio & Actively Applying",
+    "description": "Open for Backend & ML Engineering roles. Focused on building and shipping real projects.",
+    "active": true
+  },
+  {
+    "id": 2,
+    "period": "2024",
+    "title": "Graduated",
+    "description": "Completed Bachelor of Technology in Computer Science. Built multiple full stack and ML projects.",
+    "active": false
+  },
+  {
+    "id": 3,
+    "period": "2023",
+    "title": "Built Full Stack Projects",
+    "description": "Combined React frontend with Python backends and integrated PostgreSQL and MongoDB databases.",
+    "active": false
+  },
+  {
+    "id": 4,
+    "period": "2022",
+    "title": "Dived into Machine Learning",
+    "description": "Completed first end-to-end ML pipeline. Explored Scikit-learn, Pandas, NumPy and model deployment.",
+    "active": false
+  },
+  {
+    "id": 5,
+    "period": "2021",
+    "title": "Discovered Python & Backend",
+    "description": "Built first REST API. Fell in love with backend architecture and server side development.",
+    "active": false
+  },
+  {
+    "id": 6,
+    "period": "2020",
+    "title": "Started College",
+    "description": "Began Bachelor of Technology. Wrote first lines of code and discovered programming.",
+    "active": false
+  }
+]

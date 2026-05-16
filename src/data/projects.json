@@ -1,0 +1,243 @@
+
+[
+  {
+    "id": 1,
+    "slug": "backend-api-platform",
+    "title": "Backend API Platform with Authentication",
+    "category": "backend",
+    "featured": true,
+    "shortDescription": "A production-ready REST API built with FastAPI and PostgreSQL, featuring OAuth2 authentication, automated testing, and CI/CD integration for high-concurrency environments.",
+    "techStack": ["Python", "FastAPI", "PostgreSQL", "JWT", "Docker"],
+    "githubLink": "https://github.com/yourname/backend-api",
+    "liveLink": "https://your-live-demo.com",
+    "image": "/images/projects/project1.jpg",
+    "overview": "This production-grade REST API platform was architected to serve as a robust backbone for modern web applications. Built using the high-performance FastAPI framework, it implements a multi-layered security architecture with asynchronous database handling for maximum throughput. The system features a custom-built JWT authentication flow with refresh token rotation, ensuring secure and persistent user sessions.",
+    "type": "Backend",
+    "status": "Completed",
+    "duration": "3 Weeks",
+    "role": "Solo Engineer",
+    "year": "2024",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Database Design",
+        "description": "Normalization and schema modeling for high-performance relations using Alembic for migrations."
+      },
+      {
+        "number": "02",
+        "title": "Authentication Flow",
+        "description": "Implementing OAuth2 with Password Flow, hashing credentials with BCrypt, and issuing signed JWTs."
+      },
+      {
+        "number": "03",
+        "title": "API Development",
+        "description": "Developing modular endpoints following RESTful principles with Pydantic for strict data validation."
+      },
+      {
+        "number": "04",
+        "title": "Testing & Deployment",
+        "description": "Unit testing with Pytest and containerization via Docker for seamless CI/CD pipeline integration."
+      }
+    ],
+    "challenges": [
+      {
+        "icon": "warning",
+        "title": "Managing JWT Expiry",
+        "description": "Handling seamless user sessions without compromising security. Implemented a Dual-Token system with short-lived Access Tokens and long-lived Refresh Tokens stored in HTTP-only cookies."
+      },
+      {
+        "icon": "speed",
+        "title": "Query Performance",
+        "description": "As the dataset grew, certain relational queries slowed down. Used EXPLAIN ANALYZE to identify bottlenecks and applied composite indices on frequently queried foreign keys."
+      }
+    ],
+    "learnings": [
+      "JWT Architecture",
+      "Asynchronous Python",
+      "SQL Indexing",
+      "Middleware Logic",
+      "Docker Orchestration",
+      "Secure Password Hashing"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "ml-model-deployment",
+    "title": "ML Model Deployment Pipeline",
+    "category": "ml",
+    "featured": false,
+    "shortDescription": "End-to-end ML pipeline encompassing data preprocessing, automated training, and serving models via highly optimized endpoints.",
+    "techStack": ["Python", "Scikit-learn", "FastAPI", "Pandas", "NumPy"],
+    "githubLink": "https://github.com/yourname/ml-pipeline",
+    "liveLink": "",
+    "image": "/images/projects/project2.jpg",
+    "overview": "A complete machine learning pipeline that handles everything from raw data ingestion to model serving. The pipeline includes automated preprocessing, feature engineering, model training with cross-validation, and deployment as a REST API endpoint using FastAPI.",
+    "type": "Machine Learning",
+    "status": "Completed",
+    "duration": "4 Weeks",
+    "role": "Solo Engineer",
+    "year": "2024",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Data Preprocessing",
+        "description": "Built automated data cleaning and feature engineering pipeline using Pandas and NumPy."
+      },
+      {
+        "number": "02",
+        "title": "Model Training",
+        "description": "Trained and evaluated multiple models using Scikit-learn with cross-validation and hyperparameter tuning."
+      },
+      {
+        "number": "03",
+        "title": "API Deployment",
+        "description": "Wrapped the trained model in a FastAPI endpoint with proper input validation and error handling."
+      },
+      {
+        "number": "04",
+        "title": "Monitoring",
+        "description": "Added logging and monitoring for model predictions and endpoint performance tracking."
+      }
+    ],
+    "challenges": [
+      {
+        "icon": "warning",
+        "title": "Data Quality Issues",
+        "description": "Raw data had missing values and outliers. Built a robust preprocessing pipeline that handles edge cases automatically."
+      },
+      {
+        "icon": "speed",
+        "title": "Model Inference Speed",
+        "description": "Initial inference was slow. Optimized by caching the loaded model in memory and using async endpoints."
+      }
+    ],
+    "learnings": [
+      "ML Pipeline Design",
+      "Model Serialization",
+      "FastAPI Integration",
+      "Data Preprocessing",
+      "Cross Validation",
+      "Model Monitoring"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "realtime-chat-app",
+    "title": "Real Time Chat Application",
+    "category": "fullstack",
+    "featured": false,
+    "shortDescription": "Full stack chat app featuring a React frontend and Python backend, utilizing WebSockets for instantaneous messaging and MongoDB for history.",
+    "techStack": ["React", "Python", "WebSocket", "MongoDB"],
+    "githubLink": "https://github.com/yourname/chat-app",
+    "liveLink": "",
+    "image": "/images/projects/project3.jpg",
+    "overview": "A real-time chat application built with React on the frontend and a Python WebSocket server on the backend. Features include instant message delivery, persistent chat history stored in MongoDB, and a clean dark themed UI.",
+    "type": "Full Stack",
+    "status": "Completed",
+    "duration": "2 Weeks",
+    "role": "Solo Engineer",
+    "year": "2023",
+    "steps": [
+      {
+        "number": "01",
+        "title": "WebSocket Server",
+        "description": "Built Python WebSocket server handling multiple concurrent connections and message broadcasting."
+      },
+      {
+        "number": "02",
+        "title": "MongoDB Integration",
+        "description": "Set up MongoDB for persistent chat history with efficient querying for recent messages."
+      },
+      {
+        "number": "03",
+        "title": "React Frontend",
+        "description": "Built responsive React UI with real-time message updates and clean dark theme."
+      },
+      {
+        "number": "04",
+        "title": "Connection Management",
+        "description": "Implemented reconnection logic and connection state management for reliability."
+      }
+    ],
+    "challenges": [
+      {
+        "icon": "warning",
+        "title": "WebSocket Scaling",
+        "description": "Managing multiple concurrent connections efficiently. Implemented connection pooling and proper cleanup on disconnect."
+      },
+      {
+        "icon": "speed",
+        "title": "Message Ordering",
+        "description": "Ensuring messages arrive in correct order. Added timestamp based sorting and client side ordering."
+      }
+    ],
+    "learnings": [
+      "WebSocket Protocol",
+      "Real Time Systems",
+      "MongoDB Design",
+      "React State Management",
+      "Connection Pooling",
+      "Event Driven Architecture"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "data-analysis-dashboard",
+    "title": "Data Analysis Dashboard",
+    "category": "ml",
+    "featured": false,
+    "shortDescription": "Interactive data analysis tool that visualizes complex backend metrics, enabling real-time monitoring of system health and performance.",
+    "techStack": ["Python", "Pandas", "NumPy", "PostgreSQL"],
+    "githubLink": "https://github.com/yourname/dashboard",
+    "liveLink": "",
+    "image": "/images/projects/project4.jpg",
+    "overview": "An interactive data analysis dashboard that processes and visualizes complex datasets. Built with Python and Pandas for data processing, PostgreSQL for storage, and a clean frontend for visualization.",
+    "type": "Machine Learning",
+    "status": "Completed",
+    "duration": "3 Weeks",
+    "role": "Solo Engineer",
+    "year": "2023",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Data Pipeline",
+        "description": "Built ETL pipeline to ingest, clean and transform raw data using Pandas and NumPy."
+      },
+      {
+        "number": "02",
+        "title": "Database Schema",
+        "description": "Designed PostgreSQL schema optimized for analytical queries with proper indexing."
+      },
+      {
+        "number": "03",
+        "title": "Analysis Engine",
+        "description": "Implemented statistical analysis functions for deriving insights from processed data."
+      },
+      {
+        "number": "04",
+        "title": "Visualization Layer",
+        "description": "Built interactive charts and metrics display for clear data presentation."
+      }
+    ],
+    "challenges": [
+      {
+        "icon": "warning",
+        "title": "Large Dataset Performance",
+        "description": "Processing large datasets was slow. Implemented chunked processing and database level aggregations."
+      },
+      {
+        "icon": "speed",
+        "title": "Query Optimization",
+        "description": "Complex analytical queries were slow. Added materialized views and proper composite indexes."
+      }
+    ],
+    "learnings": [
+      "ETL Pipeline Design",
+      "Statistical Analysis",
+      "PostgreSQL Optimization",
+      "Data Visualization",
+      "Chunked Processing",
+      "Materialized Views"
+    ]
+  }
+]

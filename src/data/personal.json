@@ -1,0 +1,18 @@
+{
+  "name": "Rahul Sharma",
+  "greeting": "> System.out.println(\"Hello World\");",
+  "role": "Backend & ML Engineer",
+  "pitch": "Building high-performance backend systems and integrating machine learning models into production environments. Focused on scalable architecture and clean, maintainable code.",
+  "email": "yourmail@gmail.com",
+  "github": "https://github.com/yourname",
+  "linkedin": "https://linkedin.com/in/yourname",
+  "leetcode": "https://leetcode.com/yourname",
+  "techDock": [
+    { "name": "Python", "icon": "terminal" },
+    { "name": "FastAPI", "icon": "api" },
+    { "name": "React", "icon": "data_object" },
+    { "name": "PostgreSQL", "icon": "database" },
+    { "name": "MongoDB", "icon": "dns" },
+    { "name": "SQL", "icon": "storage" }
+  ]
+}

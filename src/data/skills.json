@@ -1,0 +1,80 @@
+
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Backend Development",
+      "icon": "code",
+      "skills": [
+        { "name": "Python", "icon": "terminal" },
+        { "name": "FastAPI", "icon": "api" },
+        { "name": "Flask", "icon": "bolt" },
+        { "name": "Django", "icon": "rocket_launch" },
+        { "name": "REST API Design", "icon": "hub" },
+        { "name": "JWT Authentication", "icon": "shield" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Machine Learning",
+      "icon": "psychology",
+      "skills": [
+        { "name": "Scikit-learn", "icon": "memory" },
+        { "name": "TensorFlow", "icon": "model_training" },
+        { "name": "PyTorch", "icon": "neurology" },
+        { "name": "Pandas", "icon": "table_chart" },
+        { "name": "NumPy", "icon": "calculate" },
+        { "name": "Model Deployment", "icon": "settings_input_component" },
+        { "name": "Data Preprocessing", "icon": "data_thresholding" },
+        { "name": "Feature Engineering", "icon": "analytics" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Databases",
+      "icon": "database",
+      "skills": [
+        { "name": "PostgreSQL", "icon": "database" },
+        { "name": "MongoDB", "icon": "dns" },
+        { "name": "MySQL", "icon": "storage" },
+        { "name": "SQL Querying", "icon": "search" },
+        { "name": "Database Design", "icon": "schema" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Frontend",
+      "icon": "desktop_windows",
+      "note": "Frontend is my secondary skill. I use it to build interfaces for my backend projects.",
+      "skills": [
+        { "name": "React.js", "icon": "data_object" },
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "HTML", "icon": "html" },
+        { "name": "CSS", "icon": "css" },
+        { "name": "Tailwind CSS", "icon": "palette" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Tools & Platforms",
+      "icon": "build",
+      "fullWidth": true,
+      "skills": [
+        { "name": "Git", "icon": "commit" },
+        { "name": "GitHub", "icon": "code" },
+        { "name": "Docker", "icon": "deployed_code" },
+        { "name": "Postman", "icon": "send" },
+        { "name": "VS Code", "icon": "edit_note" },
+        { "name": "Linux", "icon": "terminal" },
+        { "name": "CLI / Terminal", "icon": "keyboard_command_key" }
+      ]
+    }
+  ],
+  "exploring": [
+    { "name": "AWS / Cloud", "icon": "cloud" },
+    { "name": "Kubernetes", "icon": "hub" },
+    { "name": "System Design", "icon": "architecture" },
+    { "name": "MLOps", "icon": "engineering" },
+    { "name": "Advanced Deep Learning", "icon": "school" }
+  ]
+}
