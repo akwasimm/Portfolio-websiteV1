@@ -9,37 +9,37 @@
   },
   {
     "id": 2,
-    "period": "2024",
+    "period": "2026",
     "title": "Graduated",
     "description": "Completed Bachelor of Technology in Computer Science. Built multiple full stack and ML projects.",
     "active": false
   },
   {
     "id": 3,
-    "period": "2023",
-    "title": "Built Full Stack Projects",
-    "description": "Combined React frontend with Python backends and integrated PostgreSQL and MongoDB databases.",
+    "period": "2026",
+    "title": "Project Task-Management System",
+    "description": "Built a task management system with FastAPI backend and React frontend. Implemented user authentication, task CRUD operations, and real-time updates.",
     "active": false
   },
   {
     "id": 4,
-    "period": "2022",
+    "period": "2025",
     "title": "Dived into Machine Learning",
     "description": "Completed first end-to-end ML pipeline. Explored Scikit-learn, Pandas, NumPy and model deployment.",
     "active": false
   },
   {
     "id": 5,
-    "period": "2021",
-    "title": "Discovered Python & Backend",
-    "description": "Built first REST API. Fell in love with backend architecture and server side development.",
+    "period": "2024",
+    "title": "Joined leetcode competitive programming",
+    "description": "Started solving problems on leetcode to improve problem-solving skills and prepare for technical interviews.",
     "active": false
   },
   {
     "id": 6,
-    "period": "2020",
-    "title": "Started College",
-    "description": "Began Bachelor of Technology. Wrote first lines of code and discovered programming.",
+    "period": "2024",
+    "title": "Joined First Hackathon",
+    "description": "Participated in my first hackathon. Collaborated with a team to build a full-stack application under a tight deadline.",
     "active": false
   }
 ]

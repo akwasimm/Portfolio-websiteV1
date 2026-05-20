@@ -19,7 +19,7 @@ export default function ResumeCTA() {
         </h2>
 
         <a
-          href="/resume.pdf"
+          href="public/Wasim_Fulltime.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary mx-auto w-fit mb-6"
@@ -33,12 +33,12 @@ export default function ResumeCTA() {
         <p className="text-body-sm text-text-muted mt-6">
           Or reach me directly at{' '}
           <a
-            href="mailto:yourmail@gmail.com"
+            href="mailto:akhterwasim797@gmail.com"
             className="text-primary underline decoration-primary/30 
               underline-offset-4 hover:decoration-primary 
               transition-all"
           >
-            yourmail@gmail.com
+            Akhterwasim797@gmail.com
           </a>
         </p>
       </div>

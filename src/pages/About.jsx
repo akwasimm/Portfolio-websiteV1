@@ -13,7 +13,7 @@ export default function About() {
       {/* Page Header */}
       <SectionHeader
         title="About Me"
-        subtitle="Fresh graduate who builds things that actually work — backend first, always."
+        subtitle="Turning ideas into working products through backend engineering and AI development."
       />
 
       {/* Story */}

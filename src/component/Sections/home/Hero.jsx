@@ -65,7 +65,7 @@ export default function Hero() {
 
           {/* Portrait Image */}
           <img
-            src="public\images\profile.jpeg"
+            src="/images/profile.jpeg"
             alt={personal.name}
             className="absolute inset-0 w-full h-full 
               object-cover object-top z-10"

@@ -49,7 +49,7 @@ export default function Navbar() {
           </svg>
         </div>
         <span className="text-text-main text-xl font-bold tracking-tight">
-          &lt;RS/&gt;
+          &lt;WASIM/&gt;
         </span>
       </Link>
 
@@ -71,7 +71,7 @@ export default function Navbar() {
       {/* Resume Button + Mobile Toggle */}
       <div className="flex items-center gap-4">
         <a
-          href="/resume.pdf"
+          href="public/Wasim_Fulltime.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-resume hidden md:flex"

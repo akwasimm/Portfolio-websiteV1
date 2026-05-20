@@ -8,9 +8,9 @@
       "skills": [
         { "name": "Python", "icon": "terminal" },
         { "name": "FastAPI", "icon": "api" },
-        { "name": "Flask", "icon": "bolt" },
-        { "name": "Django", "icon": "rocket_launch" },
         { "name": "REST API Design", "icon": "hub" },
+        { "name": "Sqlalchemy", "icon": "hub" },
+        { "name": "Alembic Pydantic", "icon": "hub" },
         { "name": "JWT Authentication", "icon": "shield" }
       ]
     },
@@ -20,13 +20,11 @@
       "icon": "psychology",
       "skills": [
         { "name": "Scikit-learn", "icon": "memory" },
-        { "name": "TensorFlow", "icon": "model_training" },
-        { "name": "PyTorch", "icon": "neurology" },
+        { "name": "MLFlow", "icon": "model_training" },
         { "name": "Pandas", "icon": "table_chart" },
         { "name": "NumPy", "icon": "calculate" },
-        { "name": "Model Deployment", "icon": "settings_input_component" },
-        { "name": "Data Preprocessing", "icon": "data_thresholding" },
-        { "name": "Feature Engineering", "icon": "analytics" }
+        { "name": "Model Serving", "icon": "settings_input_component" }
+
       ]
     },
     {
@@ -65,8 +63,7 @@
         { "name": "Docker", "icon": "deployed_code" },
         { "name": "Postman", "icon": "send" },
         { "name": "VS Code", "icon": "edit_note" },
-        { "name": "Linux", "icon": "terminal" },
-        { "name": "CLI / Terminal", "icon": "keyboard_command_key" }
+        { "name": "Jupyter Notebook", "icon": "notebook" }
       ]
     }
   ],

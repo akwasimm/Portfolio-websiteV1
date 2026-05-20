@@ -13,17 +13,17 @@ const socialLinks = [
   {
     name: 'GitHub',
     icon: 'code',
-    url: 'https://github.com/yourname',
+    url: 'https://github.com/akwasimm',
   },
   {
     name: 'LinkedIn',
     icon: 'link',
-    url: 'https://linkedin.com/in/yourname',
+    url: 'https://www.linkedin.com/in/akhterwasim',
   },
   {
     name: 'LeetCode',
     icon: 'terminal',
-    url: 'https://leetcode.com/yourname',
+    url: 'https://leetcode.com/akwasim',
   },
 ]
 
@@ -39,7 +39,7 @@ export default function Footer() {
           {/* Branding */}
           <div className="text-center md:text-left">
             <Link to="/" className="text-primary text-2xl font-bold">
-              &lt;RS/&gt;
+              &lt;WASIM/&gt;
             </Link>
             <p className="text-label text-text-muted uppercase mt-1">
               Backend & ML Engineer
@@ -87,7 +87,7 @@ export default function Footer() {
       {/* Copyright */}
       <div className="border-t border-border-dark py-6">
         <p className="text-center text-label-sm text-text-muted tracking-[0.3em] uppercase">
-          © {new Date().getFullYear()} Rahul Sharma. Designed & Built by RS
+          © {new Date().getFullYear()} Wasim Akhter. Designed & Built by WASIM
         </p>
       </div>
     </footer>

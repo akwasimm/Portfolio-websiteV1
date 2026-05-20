@@ -35,20 +35,13 @@ export default function Story() {
           leading-relaxed"
         >
           <p>
-            I am a recent Computer Science graduate passionate about
-            building scalable backend systems and intelligent ML pipelines.
-            I thrive at the intersection of clean architecture and
-            data driven problem solving.
+            I’m a Computer Science student focused on backend development, AI-powered applications, and building products that solve real problems. Most of my work revolves around Python, Flask/FastAPI, React, databases, and machine learning systems — not just tutorials, but projects designed with actual users and scalability in mind.
           </p>
           <p>
-            My journey into backend engineering started with Python and
-            grew into building REST APIs, managing databases, and deploying
-            machine learning models as production ready services.
+            Over time, I moved from writing simple scripts to building full-stack and AI-driven platforms like career recommendation systems, job aggregation tools, and adaptive learning applications. I enjoy thinking deeply about system architecture, APIs, data flow, and how to turn an idea into something usable and production-ready.
           </p>
           <p>
-            I am actively looking for backend and ML engineering
-            internships and jobs where I can contribute, grow fast,
-            and build things that matter.
+            Right now, I’m sharpening my skills in backend engineering, data science, and machine learning while actively building projects, solving problems, and documenting my journey publicly. My goal is simple: become the kind of engineer who can build meaningful products from scratch and keep improving fast through execution.
           </p>
         </div>
       </div>
