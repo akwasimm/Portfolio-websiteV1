@@ -1,4 +1,4 @@
-// src/components/sections/projects/FeaturedProject.jsx
+
 import { Link } from 'react-router-dom'
 
 export default function FeaturedProject({ project }) {
@@ -16,7 +16,7 @@ export default function FeaturedProject({ project }) {
       />
 
       {/* Left → Image */}
-      <div className="lg:w-[55%] h-[240px] lg:h-auto overflow-hidden">
+      <div className="lg:w-[55%] h-[240px] lg:h-auto overflow-hidden p-2 m-3 ">
         <img
           src={project.image}
           alt={project.title}
