@@ -1,9 +1,9 @@
 // src/pages/About.jsx
-import SectionHeader from '../component/ui/SectionHeader'
-import Story from '../component/sections/about/Story'
-import Education from '../component/sections/about/Education'
-import Timeline from '../component/sections/about/Timeline'
-import ResumeCTA from '../component/sections/about/ResumeCTA'
+import SectionHeader from '../components/ui/SectionHeader'
+import Story from '../components/sections/about/Story'
+import Education from '../components/sections/about/Education'
+import Timeline from '../components/sections/about/Timeline'
+import ResumeCTA from '../components/sections/about/ResumeCTA'
 
 export default function About() {
   return (

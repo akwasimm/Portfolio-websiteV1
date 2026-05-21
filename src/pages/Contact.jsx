@@ -1,6 +1,6 @@
 // src/pages/Contact.jsx
-import SectionHeader from '../component/ui/SectionHeader'
-import ContactForm from '../component/sections/contact/ContactForm'
+import SectionHeader from '../components/ui/SectionHeader'
+import ContactForm from '../components/sections/contact/ContactForm'
 import personal from '../data/personal.json'
 
 const contactItems = [

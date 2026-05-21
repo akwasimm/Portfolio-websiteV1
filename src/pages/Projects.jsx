@@ -1,9 +1,9 @@
 // src/pages/Projects.jsx
 import { useState } from 'react'
-import SectionHeader from '../component/ui/SectionHeader'
-import FilterBar from '../component/ui/FilterBar'
-import FeaturedProject from '../component/Sections/projects/FeaturedProjects'
-import ProjectCard from '../component/ui/ProjectCard'
+import SectionHeader from '../components/ui/SectionHeader'
+import FilterBar from '../components/ui/FilterBar'
+import FeaturedProject from '../components/Sections/projects/FeaturedProjects'
+import ProjectCard from '../components/ui/ProjectCard'
 import projects from '../data/projects.json'
 
 export default function Projects() {

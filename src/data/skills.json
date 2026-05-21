@@ -23,7 +23,7 @@
         { "name": "MLFlow", "icon": "model_training" },
         { "name": "Pandas", "icon": "table_chart" },
         { "name": "NumPy", "icon": "calculate" },
-        { "name": "Model Serving", "icon": "settings_input_component" }
+        { "name": "Model Serving", "icon": "settings_input_components" }
 
       ]
     },

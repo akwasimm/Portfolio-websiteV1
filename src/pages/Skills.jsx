@@ -1,7 +1,7 @@
 // src/pages/Skills.jsx
-import SectionHeader from '../component/ui/SectionHeader'
-import BentoCard from '../component/ui/BentoCard'
-import Exploring from '../component/sections/skills/Exploring'
+import SectionHeader from '../components/ui/SectionHeader'
+import BentoCard from '../components/ui/BentoCard'
+import Exploring from '../components/sections/skills/Exploring'
 import skillsData from '../data/skills.json'
 
 export default function Skills() {

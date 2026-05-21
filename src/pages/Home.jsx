@@ -1,6 +1,6 @@
 // src/pages/Home.jsx
-import Hero from '../component/sections/home/Hero'
-import TechDock from '../component/sections/home/TechDock'
+import Hero from '../components/sections/home/Hero'
+import TechDock from '../components/sections/home/TechDock'
 
 export default function Home() {
   return (

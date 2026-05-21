@@ -1,12 +1,12 @@
 // src/pages/ProjectDetail.jsx
 import { useParams, Navigate } from 'react-router-dom'
 import { useEffect } from 'react'
-import BackNav from '../component/ui/BackNav'
-import QuickInfoCard from '../component/ui/QuickInfoCard'
-import StepCard from '../component/ui/StepCard'
-import ChallengeCard from '../component/ui/ChallangeCard'
-import ProjectNav from '../component/ui/ProjectNav'
-import SectionHeader from '../component/ui/SectionHeader'
+import BackNav from '../components/ui/BackNav'
+import QuickInfoCard from '../components/ui/QuickInfoCard'
+import StepCard from '../components/ui/StepCard'
+import ChallengeCard from '../components/ui/ChallangeCard'
+import ProjectNav from '../components/ui/ProjectNav'
+import SectionHeader from '../components/ui/SectionHeader'
 import projects from '../data/projects.json'
 
 export default function ProjectDetail() {
