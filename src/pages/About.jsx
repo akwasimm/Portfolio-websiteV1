@@ -7,6 +7,7 @@ import ResumeCTA from '../component/sections/about/ResumeCTA'
 
 export default function About() {
   return (
+    
     <div className="max-w-container mx-auto px-6 lg:px-12 
       pt-28 pb-section"
     >
